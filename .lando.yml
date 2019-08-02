@@ -1,0 +1,7 @@
+name: lando-drupal-8
+recipe: drupal8
+config:
+  database: mariadb:10.3
+  drush: "*"
+  webroot: .
+  via: apache:2.4
